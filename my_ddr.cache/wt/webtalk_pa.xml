@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Mon Apr 23 11:25:02 2018">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="aef97a036a7f4ae7a6088ea92876415a" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="IPPackagerHandler" value="1" type="JavaHandler"/>
+<property name="IPPackagerWizardHandler" value="1" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="1" type="JavaHandler"/>
+<property name="UpdateSourceFiles" value="4" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="Bitstream, Bitstream" value="1" type="GuiResourceData"/>
+<property name="Elaboration, Elaboration" value="1" type="GuiResourceData"/>
+<property name="FINISH, Finish" value="1" type="GuiResourceData"/>
+<property name="General, General" value="1" type="GuiResourceData"/>
+<property name="IP, IP" value="1" type="GuiResourceData"/>
+<property name="Implementation, Implementation" value="1" type="GuiResourceData"/>
+<property name="NEXT, Next " value="3" type="GuiResourceData"/>
+<property name="PAResourceAtoD.BusParameterFacetTable_ADD_RECOMMENDED_PARAMETER, (String" value="3" type="GuiResourceData"/>
+<property name="PAResourceAtoD.BusParameterFacetTable_BUS_PARAMETER_FACET_TABLE, FREQ_HZ ; Clock frequency (Hertz" value="3" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="3" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update" value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, Create and Package IP..." value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, Replace File..." value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.EditInterfaceDialog_TABBED_PANE, PAResourceEtoH.EditInterfaceDialog_PARAMETERS, Parameters, 2" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, my_ddr_v1_0 (my_ddr_v1_0.v" value="25" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Project Settings], 1, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, D:/snowleo/my_ddr/my_ddr.xpr, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_REPORT, Report" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_TOOLS, Tools" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="7" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, Ports and Interfaces, 4" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, Review and Package, 7" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, m00_axis ; master ;  ; false ;  ;  ;  ;  ;  ;  ; , 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, m00_axis ; master ;  ; false ;  ;  ;  ;  ;  ;  ; , 1, m00_axis, 0, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, m00_axis ; master ;  ; false ;  ;  ;  ;  ;  ;  ; , 1, m00_axis, 0, true, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, s00_axi ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; , 0, s00_axi, 0, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, s00_axis ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; , 5" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, s00_axis ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; , 5, s00_axis, 0, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, s00_axis ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; , 5, s00_axis, 0, true, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, s01_axis ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; , 9" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, s01_axis ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; , 9, s01_axis, 0, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, s01_axis ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; , 9, s01_axis, 0, true, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, Re-Package IP" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcMenu_OPEN_SELECTED_SOURCE_FILES, Open File" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="3" type="GuiResourceData"/>
+<property name="Simulation, Simulation" value="1" type="GuiResourceData"/>
+<property name="Synthesis, Synthesis" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="4" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="0" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
